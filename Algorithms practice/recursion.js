@@ -16,8 +16,10 @@ var mergeTwoLists = function(list1, list2) {
           head.next = mergeTwoLists(list1, list2.next)
       }
       return head
-
     {
        
     }
 };
+
+
+mergeTwoLists([1,2,3,4,], [1,2,3,4]);
